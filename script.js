@@ -2,14 +2,14 @@
 // Part 1: Date Display
 // ==========================
 
-const currentDate = new Date();
-const month = String(currentDate.getMonth() + 1).padStart(2, "0");
-const day = String(currentDate.getDate()).padStart(2, "0");
+const currentDate = new Date(); //creates a Date object for the date and time
+const month = String(currentDate.getMonth() + 1).padStart(2, "0"); //javascript counts months from 0 to 11 so adding 1 makes it display normally
+const day = String(currentDate.getDate()).padStart(2, "0"); //padStart makes it so the display always has 2 digits
 const year = currentDate.getFullYear();
-
+//string converts month and day into text
 const formattedDate = `Today is ${month}/${day}/${year}`;
-document.getElementById("dateOutput").textContent = formattedDate;
-
+document.getElementById("dateOutput").textContent = formattedDate; //finds the paragraph in HTML for that ID
+//.textContent places the formatted date inside that paragraph
 // ==========================
 // Part 2: Number Conversion
 // ==========================

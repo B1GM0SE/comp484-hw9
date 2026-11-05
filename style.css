@@ -29,12 +29,12 @@ h1 {
 }
 
 .card {
-  margin: 20px 0;
-  padding: 24px;
-  background: #ffffff;
-  border-left: 6px solid #6366f1;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(49, 46, 129, 0.12);
+  margin: 20px 0; /* seperates the cards from each other */
+  padding: 24px; /* creates the space inside the card */
+  background: #ffffff; /* creates the white background */
+  border-left: 6px solid #6366f1; /* adds the colored accent */
+  border-radius: 12px; /* rounds the corners */
+  box-shadow: 0 4px 12px rgba(49, 46, 129, 0.12); /* gives the card depth */
 }
 
 h2 {
